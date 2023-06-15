@@ -1,8 +1,8 @@
 import { Injectable, VersioningType } from '@nestjs/common';
 
 @Injectable()
-export class AboutApiService {
+export class AboutService {
   getApiVersion() {
-    return VersioningType.HEADER
+    return { "version": VersioningType.HEADER }
   }
 }
