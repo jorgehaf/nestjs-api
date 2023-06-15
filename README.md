@@ -7,9 +7,10 @@ $ npm install
 ## Running the app
 
 ```bash
-# development
-$ npm run dev
+# create image
+$ npm run image
 
-# production mode
-$ npm run start:prod
+# running the app in http://localhost:3000
+$ npm run container
+
 ```
