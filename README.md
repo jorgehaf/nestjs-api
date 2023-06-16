@@ -22,6 +22,6 @@ $ npm run container
 $ curl --location 'http://localhost:3000/about'
 
 # post login with token return
-$ curl --location 'http://localhost:3000/login/teste@abc.com'
+$ curl --location 'http://localhost:3000/login/:email'
 
 ```
