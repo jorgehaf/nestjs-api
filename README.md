@@ -14,3 +14,14 @@ $ npm run image
 $ npm run container
 
 ```
+
+## Endpoints doc
+
+```bash
+# get version API
+$ curl --location 'http://localhost:3000/about'
+
+# post login with token return
+$ curl --location 'http://localhost:3000/login/teste@abc.com'
+
+```
